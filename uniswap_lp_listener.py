@@ -22,6 +22,29 @@ with open("contracts/LP.json") as f:
 with open("contracts/ERC20.json") as f:
     ERC20_ABI = load(f)
 
+def convert_to_checksum(contracts):
+    for i in range(0, len(contracts)):
+        contracts[i] = web3.toChecksumAddress(contracts[i])
+
+    return contracts
+
+def track_swaps(contracts):
+    filters = []
+    contracts = convert_to_checksum(contracts)
+    for contract in contracts:
+        contract = web3.eth.contract(address=contract, abi=ABI)
+        filters.append(contract.events.Swap.createFilter(fromBlock='latest'))
+    
+    loop = get_event_loop()
+    try:
+        loop.run_until_complete(
+            gather(
+                processing_loop(filters)))
+    finally:
+        # close loop to free up system resources
+        loop.close()
+
+
 async def processing_loop(event_filters):
     while True:
         for event_filter in event_filters:
@@ -61,19 +84,3 @@ async def processing_loop(event_filters):
                 await sleep(0.01)
                 
             await sleep(0.01)
-
-
-def track_swaps(contracts):
-    filters = []
-    for contract in contracts:
-        contract = web3.eth.contract(address=contract, abi=ABI)
-        filters.append(contract.events.Swap.createFilter(fromBlock='latest'))
-    
-    loop = get_event_loop()
-    try:
-        loop.run_until_complete(
-            gather(
-                processing_loop(filters)))
-    finally:
-        # close loop to free up system resources
-        loop.close()
