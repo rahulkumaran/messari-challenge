@@ -13,7 +13,7 @@ s3 = boto3.resource(
 
 s3_bucket = "rahul-messari-challenge-bucket"
 
-eth = "https://mainnet.infura.io/v3/f5162e359e8b40638e35fd3de96dc85e"
+eth = "https://convincing-cosmological-frost.discover.quiknode.pro/04919fd9c661084bfdb03783e38267c1868b04c2/"
 web3 = Web3(Web3.HTTPProvider(eth))
 
 with open("contracts/LP.json") as f:
