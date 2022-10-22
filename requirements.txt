@@ -1,0 +1,4 @@
+boto3
+web3
+gunicorn==20.0.4
+
