@@ -17,12 +17,13 @@ The article is fairly long as it details the entire process I adopted while work
 --------------------------------
 ## Time taken to work on the project
 
-## Total time : ~20 hours
-### Researching : 1.5 hours
-### Setting up AWS + Heroku : 1 hour
-### Coding : Friday 6 hours + Saturday 6 hours (12 hours in total)
-### Testing code + Writing Article : Sunday 2 hours + Tuesday 2 hours (4 hours in total)
-### Code documentation : 1.5 hours
+## Total time : ~20 hours (Split unequally over 5 days of working)
+### Researching : Thursday 1.5 hours
+### Setting up AWS + Heroku : Friday 1 hour
+### Coding + Insight Generations : Friday 6 hours + Saturday 6 hours (12 hours in total)
+### Validating code results (Testing) : Sunday 2 hours
+### Writing Article : Tuesday 2 hours
+### Code documentation : Tuesday 1.5 hours
 
 ---------------------------------
 
