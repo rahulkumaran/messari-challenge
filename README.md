@@ -15,6 +15,16 @@ I conclude with suggestions on how Uniswap could make a better product that coul
 The article is fairly long as it details the entire process I adopted while working on this task but I promise it would be worth reading. If unable to read through the entire article, you could go through the analysis side of things - mainly the aspect correponding to analysis on how many recipients are contracts, wallets, etc and fee based pool utilisations. Make sure to read the suggestions and conclusions too towards the end of the article (last 2 sections).
 
 --------------------------------
+## Time taken to work on the project
+
+## Total time : ~20 hours
+### Researching : 1.5 hours
+### Setting up AWS + Heroku : 1 hour
+### Coding : Friday 6 hours + Saturday 6 hours (12 hours in total)
+### Testing code + Writing Article : Sunday 2 hours + Tuesday 2 hours (4 hours in total)
+### Code documentation : 1.5 hours
+
+---------------------------------
 
 # To run data engineering pipeline
 ### Install Requirements - `pip3 install -r requirements.txt`
