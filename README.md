@@ -21,7 +21,7 @@ QuickNode credentials NEED NOT to be changed - sufficient free API calls availab
 # To run jupyter notebook
 Step1 : Type `jupyter notebook` in your terminal while in the project folder 
 
-Step2 :Then click on `Uniswap Analysis.ipynb` file once Jupyter opens up on your browser
+Step2 : Then click on `Uniswap Analysis.ipynb` file once Jupyter opens up on your browser
 
 Please ensure Jupyter is installed.
 
