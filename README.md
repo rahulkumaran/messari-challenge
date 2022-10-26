@@ -2,7 +2,7 @@
 # Uniswap : Building a data engineering & analysis pipeline to analyze all swaps occurring on high volume and TVL pools
 
 --------------------------------
-## To Skip details and check how to run the code, head over to this <a href="https://github.com/rahulkumaran/messari-challenge#to-run-data-engineering-pipeline">section</a>.
+## To Skip details and check how to run the code, head over to <a href="https://github.com/rahulkumaran/messari-challenge#to-run-data-engineering-pipeline">this section</a>.
 --------------------------------
 
 ## Project in a Nutshell
