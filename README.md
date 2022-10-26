@@ -13,9 +13,9 @@ The article is fairly long as it details the entire process I adopted while work
 --------------------------------
 NOTE - Procfile is used for Heroku Deployment - Heroku Deployment currently turned off - can be turned on and can give access if required. Please let me know by preferably emailing me @ rahulkumaran313@gmail.com or by creating an issue.
 
-ALL AWS credentials in the code are active for now. Credentials not masked or encrypted.
+ALL AWS credentials in the code are active for now. Credentials not masked or encrypted (In general I would store them as an environment variable).
 Credentials in plain sight so that reviewers can run them locally without any hindrance and additional set up.
-QuickNode credentials NEED NOT to be changed - sufficient free API calls available.
+QuickNode endpoint need not to be changed, but can be update to another new Infura or QuickNode endpoint - sufficient free API calls available.
 
 --------------------------------
 # To run jupyter notebook
