@@ -1,6 +1,10 @@
 # Messari Challenge
 # Uniswap : Building a data engineering & analysis pipeline to analyze all swaps occurring on high volume and TVL pools
 
+--------------------------------
+## To Skip details and check how to run the code, head over to this <a href="https://github.com/rahulkumaran/messari-challenge#to-run-data-engineering-pipeline">section</a>.
+--------------------------------
+
 ## Project in a Nutshell
 --------------------------------
 My problem statement is kind of a combination of the 2 challenges provided in the take-home task Google Doc. More specifically, I've built a data engineering pipeline from scratch and then utilised the data to produce actionable insights too. The problem statement I worked on is related to Uniswap.
