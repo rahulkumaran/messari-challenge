@@ -1,5 +1,15 @@
 # Messari Challenge
+# Uniswap : Building a data engineering & analysis pipeline to analyze all swaps occurring on high volume and TVL pools
 
+## Project in a Nutshell
+--------------------------------
+My problem statement is kind of a combination of the 2 challenges provided in the take-home task Google Doc. More specifically, I've built a data engineering pipeline from scratch and then utilised the data to produce actionable insights too. The problem statement I worked on is related to Uniswap.
+
+I consider 18 high volume and/or TVL LPs on Uniswap wherein I'm listening to these LP contracts to procure all "Swap" related events corresponding to all of these LPs and pushing this data into s3 buckets on AWS. This data is then read into a Jupyter notebook from AWS where I perform various manipulations and mention insights derived wherever possible. More specifically, my analysis is focused on who is making swap transactions, whether transactions are actual swaps or a mere route and finally understanding pool based stats when grouped by fees. The notebook ends with suggestions from my end that I believe could help Uniswap improve their DEX experience.
+
+I conclude with suggestions on how Uniswap could make a better product that could focus on more utilisation. I have explained the entire project's process and insights in the Medium article below too.
+
+--------------------------------
 ## <a href="https://medium.com/@rahulkumaran313/uniswap-listener-data-ingestion-analysis-949214c9e10c">Medium Article Detailing the Entire Data Engineering and Science Process Followed With Robust Insights and Suggestions</a>
 
 The article is fairly long as it details the entire process I adopted while working on this task but I promise it would be worth reading. If unable to read through the entire article, you could go through the analysis side of things - mainly the aspect correponding to analysis on how many recipients are contracts, wallets, etc and fee based pool utilisations. Make sure to read the suggestions and conclusions too towards the end of the article (last 2 sections).
