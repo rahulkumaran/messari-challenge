@@ -11,7 +11,7 @@ The article is fairly long as it details the entire process I adopted while work
 ### Run Code - `python3 main.py`
 
 --------------------------------
-FYI - Procfile is used for Heroku Deployment - Heroku Deployment currently turned off - can be turned on and can give access if required. Please let me know by preferably emailing me @ rahulkumaran313@gmail.com or by creating an issue.
+NOTE - Procfile is used for Heroku Deployment - Heroku Deployment currently turned off - can be turned on and can give access if required. Please let me know by preferably emailing me @ rahulkumaran313@gmail.com or by creating an issue.
 
 ALL AWS credentials in the code are active for now. Credentials not masked or encrypted.
 Credentials in plain sight so that reviewers can run them locally without any hindrance and additional set up.
