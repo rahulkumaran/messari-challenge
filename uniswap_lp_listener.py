@@ -10,13 +10,13 @@ from typing import List, Dict, Tuple
 s3 = boto3.resource(
     service_name='s3',
     region_name='us-east-2',
-    aws_access_key_id='AKIA2TS3H57BTSIAQAIJ',
-    aws_secret_access_key='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'
+    aws_access_key_id='<ADD_ACCESS_KEY>',
+    aws_secret_access_key='<ADD_SECRET_KEY>'
 )
-s3_bucket = "rahul-messari-challenge-bucket"
+s3_bucket = "<ADD_BUCKET_NAME>"
 
 # Initialize QuickNode Endpoint
-eth = "https://convincing-cosmological-frost.discover.quiknode.pro/04919fd9c661084bfdb03783e38267c1868b04c2/"
+eth = "<ADD_ETH_RPC_NODE_URL_INFURA_OR_QUICKNODE_OR_SOMETHING_ELSE>/"
 
 # Instantiate Web3 object with quicknode endpoint
 web3 = Web3(Web3.HTTPProvider(eth))
